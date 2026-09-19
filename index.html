@@ -77,6 +77,30 @@
       </article>
     </section>
 
+    <section class="card batch">
+      <div class="head"><div><div class="kicker">5. AUTO-WACHSTUM</div><h2>Content-Batch automatisch generieren</h2><p class="muted">Erzeugt mehrere Reels auf einmal für den gewählten Account, sortiert nach Hook-Score.</p></div></div>
+      <div class="makeRow batchRow">
+        <div><label>Anzahl Reels</label><input id="batchCount" type="number" min="1" max="20" value="7" /></div>
+        <button id="generateBatch" class="primary">🚀 Batch generieren</button>
+      </div>
+      <div id="batchList" class="reelList"></div>
+      <div class="actions"><button id="copyBatch" class="ghost">Alle kopieren</button><button id="sendBatchMake" class="ghost">→ Batch an Make senden</button></div>
+      <small id="batchStatus" class="muted">Noch kein Batch generiert.</small>
+    </section>
+
+    <section class="card growth">
+      <div class="head"><div><div class="kicker">6. WACHSTUM</div><h2>Profil-Analyse: alltagsrebell explodieren lassen</h2><p class="muted">Aktuelle Zahlen eintragen und konkreten Wachstumsplan bekommen.</p></div><div class="score" id="growthScoreBadge">–</div></div>
+      <div class="grid growthGrid">
+        <div><label>Follower</label><input id="gFollowers" type="number" min="0" placeholder="z. B. 4200" /></div>
+        <div><label>Ø Views / Reel</label><input id="gViews" type="number" min="0" placeholder="z. B. 6000" /></div>
+        <div><label>Ø Retention in %</label><input id="gRetention" type="number" min="0" max="100" placeholder="z. B. 42" /></div>
+        <div><label>Ø Shares + Saves</label><input id="gShares" type="number" min="0" placeholder="z. B. 30" /></div>
+        <div><label>Postings / Woche</label><input id="gPosts" type="number" min="0" placeholder="z. B. 4" /></div>
+      </div>
+      <button id="analyzeProfile" class="primary">Profil analysieren</button>
+      <div id="growthResult" class="diagnosis">Noch keine Analyse.</div>
+    </section>
+
     <section class="card make">
       <div><div class="kicker">OPTIONAL</div><h2>Make Webhook verbinden</h2><p class="muted">Die URL bleibt nur in deinem Browser gespeichert.</p></div>
       <div class="makeRow"><input id="webhook" placeholder="https://hook.eu2.make.com/..." /><button id="saveWebhook" class="ghost">Speichern</button></div>

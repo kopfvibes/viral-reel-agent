@@ -2,6 +2,14 @@
 
 Statische Web-App für Reel-Ideen, Hooks, Skripte, Captions, CTA, 5 Hashtags, Hook-Score und einfache Reel-Diagnose.
 
+## Features
+- Einzelnes Reel generieren (Hook, Skript, Caption, CTA, 5 Hashtags, Hook-Score).
+- **Auto-Wachstum / Batch-Generator**: erzeugt mit einem Klick mehrere Reels auf einmal (bis zu 20), automatisch sortiert nach Hook-Score – so entsteht ohne manuelles Wiederholen ein ganzer Content-Vorrat.
+- **Profil-Analyse & Wachstumsplan**: eigene Kennzahlen (Follower, Ø Views, Retention, Shares/Saves, Postings/Woche) eintragen und einen priorisierten Aktionsplan bekommen, was den größten Wachstumshebel für `@alltagsrebell` darstellt.
+- `@alltagsrebell` hat einen eigenen, deutlich größeren Hook-/Pointen-Pool (zusätzlich zur Basis-Datenbank), damit der Batch-Generator viel Abwechslung liefert statt sich zu wiederholen.
+- Reel-Diagnose anhand von Views/Retention/Shares für einzelne, bereits gepostete Reels.
+- Optionaler Versand an Make (einzelnes Reel oder ganzer Batch) für automatisches Posten.
+
 ## Dateien
 - index.html
 - styles.css
